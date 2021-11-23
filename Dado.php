@@ -2,10 +2,10 @@
 
 class Dado
 {
-    private $minNumDado = 0;
-    private $maxNumDado = 12;
+    private $minNumDado;
+    private $maxNumDado;
 
-
+    // Setters
     public function setMinNumDado($param){
         $this->minNumDado = $param;
     }
@@ -14,6 +14,7 @@ class Dado
         $this->maxNumDado = $param;
     }
 
+    // Getters
     public function getMinNumDado(){
         return $this->minNumDado;
     }
@@ -21,8 +22,6 @@ class Dado
     public function getMaxNumDado(){
         return $this->maxNumDado;
     }
-
-    echo
 
 
 }
